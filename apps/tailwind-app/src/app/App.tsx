@@ -1,6 +1,5 @@
 import Button from './components/Button/Button';
 import Input from './components/Input/Input';
-import PasswordInput from './components/PasswordInput/PasswordInput';
 
 export function App() {
   return (
@@ -20,7 +19,7 @@ export function App() {
                   placeholder="username"
                   fullWidth
                 />
-                <PasswordInput
+                <Input
                   data-testid="password-input"
                   aria-label="password input"
                   placeholder="password"
