@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@heroicons/react': ^2.0.13
   '@nrwl/eslint-plugin-nx': 15.5.3
   '@nrwl/linter': 15.5.3
   '@nrwl/react': 15.5.3
@@ -16,6 +17,7 @@ specifiers:
   '@vitest/coverage-c8': ~0.25.8
   '@vitest/ui': ^0.25.8
   autoprefixer: 10.4.13
+  clsx: ^1.2.1
   eslint: ~8.15.0
   eslint-config-prettier: 8.1.0
   eslint-plugin-import: 2.26.0
@@ -37,6 +39,8 @@ specifiers:
   vitest: ^0.25.8
 
 dependencies:
+  '@heroicons/react': 2.0.13_react@18.2.0
+  clsx: 1.2.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -536,6 +540,14 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@heroicons/react/2.0.13_react@18.2.0:
+    resolution: {integrity: sha512-iSN5XwmagrnirWlYEWNPdCDj9aRYVD/lnK3JlsC9/+fqGF80k8C7rl+1HCvBX0dBoagKqOFBs6fMhJJ1hOg1EQ==}
+    peerDependencies:
+      react: '>= 16'
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}
@@ -1548,6 +1560,11 @@ packages:
       strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
     dev: true
+
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
 
   /color-convert/1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
